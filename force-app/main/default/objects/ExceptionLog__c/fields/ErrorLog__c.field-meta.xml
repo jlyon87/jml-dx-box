@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ErrorLog__c</fullName>
+    <externalId>false</externalId>
+    <label>Error Log</label>
+    <referenceTo>ErrorLog__c</referenceTo>
+    <relationshipLabel>Exception Logs</relationshipLabel>
+    <relationshipName>Exception_Logs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>
