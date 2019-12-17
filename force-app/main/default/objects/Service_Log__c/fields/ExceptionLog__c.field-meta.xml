@@ -8,14 +8,14 @@
         <filterItems>
             <field>ExceptionLog__c.Type__c</field>
             <operation>equals</operation>
-            <value>DmlException, EmailException, Custom</value>
+            <value>CalloutException, Custom</value>
         </filterItems>
-        <infoMessage>Must belong to DmlException, EmailException, or Custom typed Exception Log</infoMessage>
+        <infoMessage>Must belong to CalloutException or Custom typed Exception Log</infoMessage>
         <isOptional>false</isOptional>
     </lookupFilter>
     <referenceTo>ExceptionLog__c</referenceTo>
-    <relationshipLabel>Row Logs</relationshipLabel>
-    <relationshipName>RowLogs</relationshipName>
+    <relationshipLabel>Service Logs</relationshipLabel>
+    <relationshipName>Service_Logs</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
