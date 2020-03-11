@@ -152,6 +152,7 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Service Log</label>
     <nameField>
         <displayFormat>SL-{0000}-{YYYY}.{MM}.{DD}</displayFormat>

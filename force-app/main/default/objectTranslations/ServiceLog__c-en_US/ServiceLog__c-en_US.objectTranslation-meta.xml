@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Logs</value>
+    </caseValues>
+    <layouts>
+        <layout>Service Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Request --></label>
+            <section>Request</section>
+        </sections>
+        <sections>
+            <label><!-- Response --></label>
+            <section>Response</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
