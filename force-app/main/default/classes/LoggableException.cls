@@ -9,13 +9,14 @@ public virtual class LoggableException extends Exception {
 		this.errorLog = log;
 	}
 
-	public void init(Exception exc) {
+	public LoggableException init(Exception exc) {
 		errorLog = new ErrorLog__c();
 		exceptionLogs = new List<ExceptionLog__c>();
 		rowLogs = new List<RowLog__c>();
 		serviceLogs = new List<ServiceLog__c>();
 
 		// initialize logger with the first exception
+		return this;
 	}
 
 	public void addException(Exception exc) {
