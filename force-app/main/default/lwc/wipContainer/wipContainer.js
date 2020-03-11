@@ -1,10 +1,13 @@
 import { LightningElement, track } from 'lwc'
-import { NavigationMixin } from 'lightning/navigation'
 
-export default class WipContainer extends NavigationMixin(LightningElement) {
-  @track selected = {}
+export default class WipContainer extends LightningElement {
+  @track description = 'Lorem ipsum dolor set'
 
-  setSelected (event) {
-    this.selected = event.detail
+  onChange (event) {
+    this.description = event.detail
+  }
+
+  onKeyup (event) {
+    this.description = event.detail
   }
 }
